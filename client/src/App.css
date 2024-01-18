@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+ 
+
+}
+body{
+  background-color: #292828;
+  font-family: ravie;
+}
+.firstGroup{
+  position: absolute;
+  left: 79%;
+  top: 35%;
+  width: -15%;
+}
+.otherSide{
+  position: absolute;
+  left: 60%;
+  top: 48%;
+}
+.nextGroup{
+  position: absolute;
+  left: 35%;
+  top: 36%;
+  width: 30%;
+}

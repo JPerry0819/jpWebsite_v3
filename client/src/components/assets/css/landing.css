@@ -1,0 +1,19 @@
+.aumascot{
+    position: absolute;
+    left: 47%;
+    top: 55%;
+    width: 11%;
+    /* background: linear-gradient(to bottom left, #000000 44%, #9933ff 67%);
+    box-shadow: 2px 1px 31px 0px gold; */
+   
+}
+
+.auSeal{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 10%;
+    background: linear-gradient(to bottom left, #000000 44%, #9933ff 67%);
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+   border-radius: 60%;
+}

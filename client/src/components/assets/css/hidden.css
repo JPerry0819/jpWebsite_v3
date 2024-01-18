@@ -1,0 +1,26 @@
+.Logo{
+    position: absolute;
+    left: 41%;
+    width: 10%;
+}
+
+
+.firstRing{
+    position: absolute;
+    top: 15%;
+}
+
+.secondRing{
+    position: absolute;
+    top: 15%;
+    left: 52%;
+}
+
+.diamond{
+    fill: lightyellow;
+    stroke: yellow;
+    stroke-width: 8;
+    position: absolute;
+    top: 13%;
+    left: 52.65%;
+}

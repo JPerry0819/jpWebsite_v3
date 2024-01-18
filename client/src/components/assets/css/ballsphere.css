@@ -1,0 +1,47 @@
+.wdLogo{
+    position: absolute;
+    left: -79%;
+    top: -63%;
+    z-index: -2;
+   
+
+}
+.ballsphere-words{
+    position: absolute;
+    top: 112%;
+    left: 33%;
+    width: 50px;
+    height: 400px;
+    margin: 0 auto;
+    perspective: 800px;
+    transform-style: preserve-3d;
+    z-index: 1;
+    transform: translate(11px, -397px) rotate(0deg);
+}
+/* @keyframes ball {
+    0%{
+        left: 5%;
+        
+    }
+    
+} */
+
+.ballWord{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: linear-gradient(to bottom left, #000000 38%, #7d2ad1 100%);;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform-style: preserve-3d; /* added transform-style */
+    transform-origin: 50% 50% -50px; /* set the transform origin */
+  
+}

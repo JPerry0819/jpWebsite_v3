@@ -1,0 +1,68 @@
+.sphere-words {
+  position: absolute;
+  top: 43%;
+  left: 43%;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  perspective: 800px;
+  transform-style: preserve-3d;
+  z-index: -1;
+  }
+  .cutout {
+    position: absolute;
+    left: -13%;
+    top: -23%;
+    width: 80%;
+}
+
+  
+  .nextGroup {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    perspective: 800px; /* added perspective */
+    transform-style: preserve-3d; /* added transform-style */
+  }
+  
+  .word {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform-style: preserve-3d; /* added transform-style */
+    transform-origin: 50% 50% -50px; /* set the transform origin */
+ 
+  }
+  .nextWord {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+
+    transition: all 0.3s ease;
+    transform-style: preserve-3d; /* added transform-style */
+    transform-origin: 50% 50% -50px; /* set the transform origin */
+  }
+  

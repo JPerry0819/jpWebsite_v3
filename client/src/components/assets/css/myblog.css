@@ -1,0 +1,95 @@
+.subTitle{
+    position: absolute;
+   
+  }
+  .headingTitle{
+    position: absolute;
+    left: 36%;
+    top: 2%;
+  }
+  .comp{
+    width: 100%;
+  }
+  .scdchance{
+    width: 100%
+  }
+  .blogbtn{
+    width: 35%;
+    font-size: 10px;
+    margin-top: 10%;
+  }
+  .blogInfo{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    margin: 5%;
+  }
+  .subTitle2{
+    position: absolute;
+    top: 72%;
+    left: 55%;
+  }
+  .blogInfo2{
+    position: absolute;
+    top:74%;
+    left: 35%;
+    margin: 5%;
+  }
+    /* Header/Blog Title */
+    .blogheader {
+      padding: 30px;
+      font-size: 25px;
+  margin-left: 5%;
+      background: white;
+      width: 85%;
+      height: 45px;
+      z-index: 1;
+    }
+    
+    /* Create two unequal columns that floats next to each other */
+    /* Left column */
+    .leftcolumn {   
+      float: left;
+      width: 100%;
+      z-index: 1;
+    }
+    
+  
+    
+    /* Fake image */
+    .fakeimg {
+      background-color: rgb(121, 120, 120);
+      width: 32%;
+      padding: 20px;
+      height: 15px;
+      z-index: 1;
+    }
+    
+    /* Add a card effect for articles */
+    .card {
+       background-color: white;
+       padding: 20px;
+       margin-top: 20px;
+       z-index: 1;
+     
+  
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+      z-index: 1;
+    }
+    
+    /* Footer */
+   
+    
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+      }
+    }

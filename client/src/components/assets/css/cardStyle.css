@@ -1,0 +1,58 @@
+.cardContainer{
+
+  margin: 80px;
+  margin-top: 1%;
+
+
+   
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 7px 11px 10px;
+z-index: 1;
+    margin-left: 1%;
+    width: 98%;
+  }
+  .column {
+    flex: 5%;
+
+
+
+   
+  }
+.cardSize{
+    width: auto;
+    height: auto;
+    margin-left: 3%;
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+
+  }
+  .cardData{
+   
+
+    padding: 0px;
+  }
+  .cardCost{
+    font-size: 15px;
+  }
+
+  .cardLanguage{
+    text-align: center;
+  }
+  .cardTitle{
+    text-align: center;
+  }
+  .cardColumn {
+ 
+    margin-top: 8px;
+    margin-left: 0% ;
+    margin-bottom: 0%;
+    vertical-align: middle;
+    width: 50%;
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+    border: rgba(14, 68, 90, 0.445) solid 2px;
+  }
+

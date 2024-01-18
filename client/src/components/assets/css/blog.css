@@ -1,0 +1,105 @@
+.subTitle{
+  position: absolute;
+  top: 17%;
+  left: 34%;
+}
+.headingTitle{
+  position: absolute;
+  left: 27%;
+  top: 2%;
+  color: gold;
+  text-shadow: 2px 3px 12px #9933ff;
+}
+
+.comp{
+  width: 100%;
+
+}
+.scdchance{
+  width: 100%;
+  margin-top: 1%
+}
+.blogInfo{
+  position: absolute;
+  top: 17%;
+  left: 27%;
+  margin: 5%;
+  text-align: unset;
+  text-overflow: ellipsis;
+}
+.subTitle2{
+  position: absolute;
+  top: 65%;
+  left: 35%;
+}
+.blogInfo2{
+  position: absolute;
+  top:67%;
+  left: 30%;
+  margin: 5%;
+  text-align: unset;
+  text-overflow: ellipsis;
+}
+  /* Header/Blog Title */
+  .blogheader {
+    padding: 30px;
+    font-size: 25px;
+    margin-left: 3%;
+    background: black;
+    width: 87%;
+    height: 50px;
+    z-index: 1;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 100%;
+    z-index: 3;
+  }
+  
+
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #7d2ad1;
+    width: 32%;
+    padding: 7px;
+    height: 11px;
+    z-index: 1;
+    margin-left: -13%;
+  }
+  
+  /* Add a card effect for articles */
+  .blogCard {
+    background-color: black;
+    padding: 94px;
+    margin-top: 15px;
+    z-index: 3;
+    height: 373px;
+   
+
+  }
+  .firstCardTitle{
+    margin-top: -12%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    z-index: 3;
+  }
+  
+  /* Footer */
+ 
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }

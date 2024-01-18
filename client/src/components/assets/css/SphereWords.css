@@ -1,0 +1,82 @@
+.sphere-words {
+    position: absolute;
+    top: 45%;
+    left: 44%;
+    width: 450px;
+    height: 400px;
+    margin: 0 auto;
+    perspective: 900px; /* added perspective */
+    transform-style: preserve-3d; /* added transform-style */
+    
+  }
+.sphere-words4{
+  perspective: 900px; /* added perspective */
+    transform-style: preserve-3d; /* added transform-style */
+}
+.sphere-words5{
+transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  perspective: 900px; /* added perspective */
+    transform-style: preserve-3d; /* added transform-style */
+}
+.sphere-words6{
+
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    perspective: 900px; /* added perspective */
+      transform-style: preserve-3d; /* added transform-style */
+  }
+.wordchange{
+
+  color: white
+}
+  .wordNext {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+    border-radius: 30%;
+ 
+  
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    transform-style: preserve-3d; /* added transform-style */
+    transform-origin: 30% 20% -10px; /* set the transform origin */
+  }
+  .thirdLayer{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+  }
+  .wordOne{
+   
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      height: 100px;
+      border-radius: 30%;
+      color: white;
+    
+      font-size: 16px;
+      font-weight: bold;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.4s ease;
+      transform-style: preserve-3d; /* added transform-style */
+      transform-origin: 30% 20% -10px; /* set the transform origin */
+ 
+  }
+  .sphereImg{
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+  }
+
+  .sphereImg2{
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+    height: 200px;
+  }
+  

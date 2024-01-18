@@ -1,0 +1,24 @@
+.mainImageCara {
+
+    border-radius: 150px;
+    width: 200px;
+    height: 125px;
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+  
+
+}
+
+.imageContainer {
+
+    margin-top: -8%;
+    width: 60px;
+    height: 150px;
+    margin-left: 15%;
+
+}
+
+@media screen and (max-width: 1600px) and (min-width: 100px){
+    .imageContainer{
+        display: none;
+    }
+}

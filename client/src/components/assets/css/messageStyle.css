@@ -1,0 +1,257 @@
+.post-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.qrlImage{
+    position: absolute;
+    top: 64%;
+    left: 87%;
+    width: 8%;
+    position: fixed;
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+}
+.qrltext{
+    position: absolute;
+    top: 60%;
+    left: 87%;
+    width: 8%;
+    position: fixed;
+}
+.eventsContainer{
+    position: absolute;
+    background-color: black;
+    height: 588px;
+    width: 18%;
+    top: 36.15%;
+    left: 0.5%;
+    position: fixed;
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+}
+.getPost{
+    background-color: black;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 54%;
+    margin-bottom: 10px;
+    margin-left: 1.5%;
+    font-size: 18px;
+    /* opacity: 100%; */
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+}
+
+.content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    padding: 0.01em 16px;
+    text-align: center;
+    margin-top: -16%;
+    z-index: -3;
+    color: white;
+}
+.title {
+    font-family: 'Stencil', 'sans serif';
+    color: gold;
+    text-shadow: 2px 3px 12px #9933ff;
+    font-size: 48px;
+    margin: 10px 0;
+    margin-top: 20%;
+    z-index: -3;
+    background-color: black;
+    width: 98%;
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+}
+.mainPostContainer{
+    z-index: 3;
+}
+
+.userName{
+    font-family: 'Alef';
+    color: #0e0e0e;
+       z-index: -3;
+}
+.subTitleAlpha {
+    font-family: 'Alef';
+    font-size: 16px;
+    margin: 10px 0;
+   color: gold;
+       z-index: -3;
+}
+header {
+    display: block;
+    font-family: 'Alef';
+       z-index: -3;
+}
+
+.blogTitles {
+    font-family:'Alef';
+    font-size: 1.9vh;
+    font-weight: 700;
+    text-align: center;
+       z-index: -3;
+}
+
+.opacity {
+    opacity: 0.60;
+       z-index: -3;
+}
+.date{
+       z-index: -3;
+}
+.postBox{
+    z-index: -3;
+}
+.display-container {
+    position: relative;
+       z-index: -3;
+}
+.wide {
+    letter-spacing: 1%;
+}
+.main-img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+}
+.img-title {
+   color: gold;
+    text-shadow: #757575 2px 2px 2px;
+}
+.display-left {
+    padding: 12px 24px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-0%, -50%);
+}
+/* .margins {
+    margin: 16px;
+    padding: 12px 24px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 4px #00CC99;
+} */
+
+/* POST component*/
+
+.center {
+    border-radius: 4px;
+    /* box-shadow: 0 2px 5px 0 black, 0 2px 10px 0 black; */
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+    padding: 8%;
+    padding-bottom: 10%;
+    width: auto;
+    margin: 3%;
+    z-index: -3;
+   background-color: black;
+   color: gold;
+   
+}
+
+
+.avatarImg {
+    width: 90px;
+    vertical-align: middle;
+    border-style: none;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+/* Posting Style */
+
+.post-input {
+    padding: 8px 16px !important;
+    margin: 0.5%;
+    border: 2px solid #ccc;
+    width: 92%;
+       z-index: -3;
+}
+.posting-container {
+  
+    box-shadow: 0 10px 20px rgb(255 215 0 / 89%);
+      margin: 16px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    width: 50%;
+    background-color: black;
+    margin-left: 26%;
+       z-index: -3;
+ 
+}
+.post-heading {
+    opacity: 0.80;
+    font-family: 'Alef';
+    color: #0f1010;
+       z-index: -3;
+}
+.post-button {
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Comment inputs  */
+
+.comment-section{
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 1%;
+    padding-bottom: 10%;
+    width: auto;
+    margin: 3%;
+       z-index: -3;
+}
+.confirm-btn{
+    background: transparent;
+    border: none;
+    box-shadow: 0 10px 20px rgb(255 215 0 / 89%);
+    color: white;
+    margin-top: 2%;
+}
+
+.comment-item{
+    box-shadow: 0 4px 16px rgb(255 215 0 / 89%);
+    background-color: black;
+}
+
+/* signin */
+
+.input{
+    margin-bottom: 2%;
+}
+
+.returnFromMessage{
+    position: absolute;
+    left: 4%;
+    top: 25%;
+    position: fixed;
+    background-color: transparent;
+    border: none;
+   color: gold;
+    font-weight: bolder;
+    font-size: 25px;
+    text-shadow: 0 2px 2px #2a4562, 0 0 2px white;
+    z-index: 4;
+}
+
+
+@media screen and (max-width: 768px){
+    .footer{
+        display: none;
+    }
+}

@@ -1,0 +1,21 @@
+.display-container {
+    position: relative
+}
+.content
+ {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.third{
+    float: left;
+    width: 30%;
+    
+}
+
+.twothird{
+    float: right;
+    width: 60%;
+    position: relative;
+   left: 2%;
+}

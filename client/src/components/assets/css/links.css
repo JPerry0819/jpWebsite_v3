@@ -1,0 +1,110 @@
+.loginLink{
+    color: gold;
+    position: absolute;
+    top: 24%;
+    left: 32%;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 3px 12px #9933ff;
+    font-family: ravie;
+    background-color: transparent;
+    border: none;
+}
+.registerLink{
+    color: gold;
+    position: absolute;
+    top: 24%;
+    left: 42%;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 3px 12px #9933ff;
+    font-family: ravie;
+    background-color: transparent;
+    border: none;
+}
+.logoutLink{
+    color: gold;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 3px 12px #9933ff;
+    font-family: ravie;
+    background-color: transparent;
+    border: none; 
+}
+.homeLink{
+    color: gold;
+    position: absolute;
+    top: 8%;
+    left: 1%;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 3px 12px #9933ff;
+    font-family: ravie;
+    background-color: transparent;
+    border: none;
+}
+.contactLink{
+    color: gold;
+    position: absolute;
+    top: 1%;
+    left: 8%;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 3px 12px #9933ff;
+    font-family: ravie;
+    background-color: transparent;
+    border: none;
+}
+/* start home page links */
+.blogLink{
+    color: #312f2f;
+
+       position: absolute;
+       top: 4%;
+       left: 87%;
+       font-size: 20px;
+       text-decoration: none;
+       /* text-shadow: 2px 3px 12px #9933ff; */
+       font-family: ravie;
+       background-color: transparent;
+       border: none;
+       cursor: pointer;
+ 
+
+       
+}
+.aboutLink{
+    color: gold;
+    position: absolute;
+    top: 24%;
+    left: 18%;
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 3px 12px #9933ff;
+    font-family: ravie;
+    background-color: transparent;
+    border: none;
+   
+}
+.resumeLink{
+    color: gold;
+    position: absolute;
+    top: 24%;
+    left: 33%;
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+    text-shadow: 2px 3px 12px #9933ff;
+    font-family: ravie;
+    background-color: transparent;
+    border: none;
+   
+}
+
+
+
+
